@@ -19,6 +19,7 @@ pip install datasets
 pip install jupyter
 pip install xplique
 pip install timm
+pip install fastai
 ```
 
 
