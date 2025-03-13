@@ -22,8 +22,9 @@ pip install timm
 pip install fastai
 ```
 
-For experiment 3 it is necessary to clone the [Cockatiel repo](https://github.com/fanny-jourdan/cockatiel) (notebook assumes this on the same level as our repo)
+For experiment 3 it is necessary to install **transformers** clone the [Cockatiel repo](https://github.com/fanny-jourdan/cockatiel) (we assume the cockatiel repo is located in the same directory as ours),
 ```bash
+pip install transformers
 git clone https://github.com/fanny-jourdan/cockatiel.git
 ```
 
