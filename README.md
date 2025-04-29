@@ -1,7 +1,7 @@
 # Conceptualizing-Uncertainty
 
 This repository contains code for the paper:  
-**Conceptualizing Uncertainty, Isaac Roberts, Alexander Schulz, Sarah Schroeder, Fabian Hinder, Barbara Hammer, submitted to the World Conference on Explainable Artificial Intellgience(XAI) 2025
+**Conceptualizing Uncertainty, Isaac Roberts, Alexander Schulz, Sarah Schroeder, Fabian Hinder, Barbara Hammer, submitted to the International Conference on Neural Information Processing 2025
 **
 
 # Step 1: Technical Pre-Requisites
@@ -55,6 +55,5 @@ The scripts in the notebooks construct the streams and drifts using the datasets
 We do note that there are more models here than presented in the paper. We ultimately chose "one_local_l_probs" as Model h \tilde, because it performed the best while maintaining a high degree of interpretability. 
 The other models are produced by counting more concepts and could potentially be used in certain settings.
 
-# Step 3b: Case Study 
 To see examples of the produced explanantions, please follow along in the case study notebook.
 
