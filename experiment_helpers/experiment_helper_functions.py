@@ -522,7 +522,7 @@ class UncertaintyWrapperWithSpline(BaseEstimator, ClassifierMixin):
 from scipy.special import expit
 
 from skimage.filters import threshold_otsu
-from DriftLocalization.j_helper_functions import fit_beta_mixture, find_root
+from Uncertainty_Functions.unc_functions import fit_beta_mixture, find_root
 def get_threshold(t):
     t_min, t_max = np.min(t), np.max(t)
     # Add a small epsilon to ensure values are strictly within (0, 1)
