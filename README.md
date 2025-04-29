@@ -48,12 +48,17 @@ mkdir data/ninco_data
 tar -xf data/ninco.tar.gz -C data/ninco_data
 ```
 
-# Step 3a: Experiments
-To see the results of the experiments, one can either run the experiment notebooks (assuming one has acquired the data) or directly load the csv files which contain the results over 50 runs used in the paper. 
-The scripts in the notebooks construct the streams and drifts using the datasets obtained above. 
+# Step 3: Experiments
+To see the results of the experiments, one can either run the experiment notebooks (assuming one has acquired the data) or directly load the csv files which contain the results. 
 
-We do note that there are more models here than presented in the paper. We ultimately chose "one_local_l_probs" as Model h \tilde, because it performed the best while maintaining a high degree of interpretability. 
-The other models are produced by counting more concepts and could potentially be used in certain settings.
+## Distinguishing Sources of Uncertainty Experiment
+One can either run the Distinguish_Unc_Experiment.ipynb or look into the Distinguish_Unc_Experiment_results folder for all of the results which are included in the submitted paper or the Arxiv version. Link to Arxiv (([Paper](https://arxiv.org/abs/2503.03443)))
 
-To see examples of the produced explanantions, please follow along in the case study notebook.
+## Rejection Experiment
+One can either run the Rejection_Experiment.ipynb or look into the Rejection_Experiment_results folder for all of the results which are included in the submitted paper or the Arxiv version. Link to Arxiv (([Paper](https://arxiv.org/abs/2503.03443)))
+
+## Fairness in LLMs Experiment
+One can either run the Fairness_LLM_Experiment.ipynb or look into the Fairness_LLM_results folder for all of the results which are included in the submitted paper or the Arxiv version. Link to Arxiv (([Paper](https://arxiv.org/abs/2503.03443)))
+
+
 
