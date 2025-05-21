@@ -34,7 +34,6 @@ pip install imgkit
 ```
 
 # Step 2: Data Acquisition
-We construct two Datastreams for our experiments and Case Study:
 - [NINCO](https://github.com/j-cb/NINCO) - The NINCO (No ImageNet Class Objects) dataset consists of 64 OOD classes with a total of 5879 samples. The OOD classes were selected to have no categorical overlap with any classes of ImageNet-1K.  Link to Paper [NINCO]((https://arxiv.org/abs/2306.00826))
 - [Subset of ImageNet](https://www.image-net.org/) - ImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the hierarchy is depicted by hundreds and thousands of images.  Link to Paper [ImageNet](https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf)
     - We focus our work on the ImageWoof and Imagenette subsets given by [fastai](https://github.com/fastai/imagenette)
